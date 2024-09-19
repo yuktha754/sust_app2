@@ -1,0 +1,89 @@
+/* Default Light Theme Styles */
+.main-container.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .main-container.light .card:first-child {
+    background-color: #124dff;
+  }
+  
+  .main-container.light .card:nth-child(2) {
+    background-color: #ff6d00;
+  }
+  
+  .main-container.light .card:nth-child(3) {
+    background-color: #2e7d32;
+  }
+  
+  .main-container.light .card:nth-child(4) {
+    background-color: #d50000;
+  }
+  
+  .main-container.light .card {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .main-container.light .theme-toggle-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .main-container.light .alerts-section {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  
+  .main-container.light .alert-box {
+    background-color: #ffe6e6;
+    color: #cc0000;
+  }
+  
+  .main-container.light .water-messages {
+    background-color: #e6ffe6;
+    color: #009900;
+  }
+  
+  /* Dark Theme Styles */
+  .main-container.dark {
+    background-color: #2b2b2b;
+    color: white;
+  }
+  
+  .main-container.dark .card {
+    background-color: #3a3a3a;
+  }
+  
+  .main-container.dark .theme-toggle-btn {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .main-container.dark .alerts-section {
+    background-color: #3a3a3a;
+    color: #fff;
+  }
+  
+  .alert-box, .water-messages {
+    margin: 10px 0;
+  }
+  
+  .alert-text, .water-message-text {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  /* Hover effect for buttons */
+  .theme-toggle-btn:hover {
+    opacity: 0.8;
+  }
+  
